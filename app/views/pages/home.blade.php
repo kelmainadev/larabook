@@ -2,12 +2,11 @@
 
 @section('content')
     <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <h1>welcome to Larabook</h1>
+        <p>Larabook is a platform where you can share ideas about Laravel and be able to ask question and make new friends who have the same interest as you!</p>
         <p>
-            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Sign Up &raquo;</a>
         </p>
     </div>
-   welcome to Larabook
+
     @stop
