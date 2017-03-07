@@ -11,7 +11,8 @@
 	"require-dev": {
 		"way/generators": "^3.0",
 		"codeception/codeception": "~2.0",
-		"laracasts/testdummy": "~1.0"
+		"laracasts/testdummy": "~1.0",
+		"laracasts/validation": "~1.1.2"
 	},
 	"autoload": {
 		"classmap": [
@@ -23,6 +24,10 @@
 			"app/tests/TestCase.php"
 		]
 	},
+	"psr-4": {
+		"Larabook\\" : "app/Larabook"
+	},
+
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
